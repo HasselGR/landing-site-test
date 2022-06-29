@@ -1,0 +1,27 @@
+.stat-card-container{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(25% - 32px);
+    // flex: 0 0 calc(10% - 32px);
+    width: calc(12% - 32px);
+    margin: 0 16px;
+    margin: 0 50px;
+    .stat-image{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    h1{
+        font-size: 48px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    h6{
+        font-size: 16px;
+    }
+
+}

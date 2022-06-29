@@ -1,0 +1,27 @@
+.showcase-container{
+    background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247, 1) 100%);
+    width: 100%;
+
+    h1{
+        padding: 15px 0;
+        text-align: center;
+    }
+    .showcase{
+        
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 12%;
+        grid-row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center  ;
+        img{
+            height: 250px;
+            width: auto;
+
+
+        }
+    }
+}
+
