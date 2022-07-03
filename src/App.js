@@ -36,11 +36,9 @@ function App() {
         <div className='front-banner'>
           <span className='big-title'>
             You’ve never made a website this fast before. Really.
-            (PENDIENTE: ARREGLAR EL GAP, HACERLO RESPONSIVE)
           </span>
-          <span>
             <img className="big-image" src={BigImage} alt="FrontIMage"/>
-          </span>
+          
         </div>
       </div>
         <div className='bottom-big-border'></div>
