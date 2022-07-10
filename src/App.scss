@@ -80,21 +80,42 @@ body {
   grid-row-gap: 50px;
 }
 
+@media (max-width: 767px) {
+.opinion-board{
+  display:flex ;
+  flex-direction: column;
+
+  
+}
+}
+
+
+
 .opinion-title{
   margin-top: 30px;
   text-align: center;
   font-weight: bold;
   font-size: 48px;
 }
-.stats-container{
-
-  margin: 75px 0;
-  width:100%;
-  display:flex;
-  justify-content: center;
+@media (max-width: 480px){
+  .stats-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
   
-
+  }
 }
+@media (min-width: 481px){
+  .stats-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  
+  }
+}
+
 .stats-title{
 
   margin: 35px 0;

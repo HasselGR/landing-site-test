@@ -1,11 +1,8 @@
 .stat-card-container{
     position: relative;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 calc(25% - 32px);
-    // flex: 0 0 calc(10% - 32px);
-    width: calc(12% - 32px);
-    margin: 0 16px;
-    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
     .stat-image{
         width: 40px;
         height: 40px;
