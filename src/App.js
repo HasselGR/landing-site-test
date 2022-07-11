@@ -8,7 +8,7 @@ import { Footer } from './components/footer/footer.component';
 const opinionsList = [{
   id:'1',
   name:'Robert Robertson',
-  info: 'A person should have his roots deep in a great moving current a moving stream of conscious direction which will keep him on course sailing steadily toward the destination hes chosen regardless of the economic and social winds that blows first this way and then that on the surface'
+  info: 'A person should have his roots deep in a great moving current a moving stream of conscious direction which will keep him on course sailing steadily toward the destination hes chosen.'
   },
   {
     id:'2',
@@ -37,7 +37,8 @@ function App() {
           <span className='big-title'>
             You’ve never made a website this fast before. Really.
           </span>
-            <img className="big-image" src={BigImage} alt="FrontIMage"/>
+          
+            <img className="big-image" src={BigImage} alt="FrontImage"/>
           
         </div>
       </div>

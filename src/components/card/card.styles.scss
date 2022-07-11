@@ -1,5 +1,6 @@
 .card-container {
-
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border: 1px solid grey;
   border-radius: 5px;
@@ -9,6 +10,27 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  justify-content: center;
+  width: 75%;
+  margin: 25px;
+  .monster-image{
+    height: 75%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 425px) {
+  .card-container{
+    width: 50%;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .card-container{
+    width: 35%;
+  }
+  
 }
 
 .card-container:hover {

@@ -22,3 +22,21 @@
     }
 
 }
+@media (max-width: 480px){
+.stat-card-container{
+    width: 200px;
+
+}
+}
+@media (max-width: 1024px){
+    .stat-card-container{
+        width: 140px;
+    }
+    }
+
+
+@media (min-width: 1440px){
+    .stat-card-container{
+        width: 150px;
+    }
+}
